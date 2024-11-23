@@ -1,0 +1,40 @@
+/* Styling only */
+body {
+  margin: 0;
+}
+
+.wrapper {
+  display: grid;
+  background-color: #333333;
+  color: #444;
+  padding: 20px;
+  grid-template-rows: repeat(6, 1fr);
+  grid-template-columns: repeat(3, 1fr);
+  height: 90vh;
+}
+
+.item {
+  background-color: #3092d7;
+  color: #fff;
+  border-radius: 10px;
+  border: 0.5px solid rgba(0, 0, 0, 0.8);
+  font-size: 3em;
+  gap: 20px;
+}
+.a
+{
+  grid-column: span 3;
+}
+.b
+{
+  grid-row: span 2;
+}
+.e
+{
+  grid-column: span 2;
+}
+.f
+{
+  grid-column: span 3;
+}
+/* Layouting only  (your work)*/

@@ -1,0 +1,56 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f9;
+  height: 100vh;
+}
+
+.card-container {
+ 
+  margin: 50px;
+  display: grid;
+  gap: 1em;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+}
+ 
+.card {
+  display: grid;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 16px;
+}
+
+.card-image {
+  width: 100%;
+  height: auto;
+}
+
+.card-title {
+  font-size: 1.25rem;
+  font-weight: bold;
+  color: #333;
+
+}
+
+.card-description {
+  font-size: 1rem;
+  color: #666;
+}
+
+.card-button {
+  padding: 10px;
+  width: 100%;
+  background: gray;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  vertical-align: auto;
+}
+
+.span2
+{
+  grid-column: span 2;
+}
+ 
